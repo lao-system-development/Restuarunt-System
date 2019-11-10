@@ -83,6 +83,7 @@
     <Compile Include="Formprogressbar.Designer.cs">
       <DependentUpon>Formprogressbar.cs</DependentUpon>
     </Compile>
+    <Compile Include="Function\Devfunction.cs" />
     <Compile Include="Login\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,7 +128,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Connection\" />
-    <Folder Include="Function\" />
     <Folder Include="Main\" />
     <Folder Include="Report\" />
   </ItemGroup>
