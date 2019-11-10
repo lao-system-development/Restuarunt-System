@@ -49,13 +49,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu_UI_v1.52">
-      <HintPath>..\..\..\..\..\..\Files.dll\Bunifu_UI_v1.52.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Files.dll\Bunifu_UI_v1.52.dll</HintPath>
     </Reference>
     <Reference Include="MaterialUI">
-      <HintPath>..\..\..\..\..\..\Files.dll\MaterialUI.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Files.dll\MaterialUI.dll</HintPath>
     </Reference>
     <Reference Include="MetroFramework">
-      <HintPath>..\..\..\..\..\..\Files.dll\MetroFramework.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Files.dll\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\..\..\..\..\..\..\Files.dll\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>..\..\..\..\..\..\..\Files.dll\MetroFramework.Fonts.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
