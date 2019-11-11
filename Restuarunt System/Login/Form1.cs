@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Restuarunt_System.Login
 {
-    public partial class Form1 : Form
+    public partial class frmTest : Form
     {
-        public Form1()
+        public frmTest()
         {
             InitializeComponent();
+        }
+
+        private void frmTest_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("test project");
         }
     }
 }

@@ -39,8 +39,9 @@
             // 
             // Component_table
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.Font = new System.Drawing.Font("Phetsarath OT", 12F);
             this.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.Name = "Component_table";

@@ -1,6 +1,6 @@
 ﻿namespace Restuarunt_System.Login
 {
-    partial class Form1
+    partial class frmTest
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.component_table1 = new Restuarunt_System.UIFunction.Component_table();
+            this.SuspendLayout();
+            // 
+            // component_table1
+            // 
+            this.component_table1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.component_table1.Font = new System.Drawing.Font("Phetsarath OT", 12F);
+            this.component_table1.Location = new System.Drawing.Point(13, 15);
+            this.component_table1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.component_table1.Name = "component_table1";
+            this.component_table1.Size = new System.Drawing.Size(175, 152);
+            this.component_table1.TabIndex = 0;
+            // 
+            // frmTest
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Controls.Add(this.component_table1);
+            this.Name = "frmTest";
+            this.Load += new System.EventHandler(this.frmTest_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private UIFunction.Component_table component_table1;
     }
 }
