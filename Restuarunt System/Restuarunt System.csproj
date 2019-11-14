@@ -80,6 +80,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Connection\ConnectionClass.cs" />
     <Compile Include="Formprogressbar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -133,9 +134,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Connection\" />
-    <Folder Include="Main\" />
-    <Folder Include="Report\" />
+    <Folder Include="ModelClass\Main_md_class\" />
+    <Folder Include="Report\accounting\" />
+    <Folder Include="Report\report_manager\" />
+    <Folder Include="Report\report_sale\" />
+    <Folder Include="ViewForm\Main_Form\" />
+    <Folder Include="ViewForm\Manager_Form\" />
+    <Folder Include="ViewForm\Saleman_Form\" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
